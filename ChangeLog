@@ -1,0 +1,124 @@
+Ansifilter ChangeLog
+
+23.03.2015
+
+ansifilter 1.12
+
+-added options --line-numbers, --wrap-no-numbers, --anchors 
+  (suggested by Jens Schleusener)
+
+---
+20.10.2014
+
+ansifilter 1.11
+
+-fixed bold and italic in LaTeX output (patch by Antonio Dominguez)
+
+---
+01.09.2014
+
+ansifilter 1.10
+
+-added Pango output and fixed minor bugs (patches by Dominik Schmidt)
+
+---
+22.8.2014
+
+ansifilter 1.9
+
+-fixed LaTeX code indentation (thanks to Maria)
+
+---
+16.04.2014
+
+ansifilter 1.8
+
+-added support for Erase Line, Save and Restore Cursor sequences
+  (thanks to Kovács Zoltán)
+
+---
+04.01.2012
+
+ansifilter 1.7
+
+-added --wrap option to wrap long lines
+-fixed tab output in plain text mode
+
+---
+31.03.2011
+
+ansifilter 1.6
+
+-fixed tab output
+-added support for aixterm codes
+-added bbcode output
+-brightened default colours
+
+---
+12.11.2010
+
+ansifilter 1.5
+
+-fixed parsing of grep escape sequences (thanks to  Alexander Lucas)
+
+---
+18.08.2010
+
+ansifilter 1.4
+
+-fixed parsing of xterm escape sequences (thanks to Mark Ziesemer)
+
+---
+20.07.2009
+
+ansifilter 1.3
+
+-fixed gcc 4.3 compilation (thanks to Jens Schleusener)
+-license changed from GPLv2 to GPLv3
+
+---
+22.09.2008
+
+ansifilter 1.2
+
+-added option -L, --latex for LaTeX output (patch by Hans Meine)
+-added option -P, --tex for TeX output
+-fixed RTF invalid format error
+-removed useless files
+
+---
+27.05.2008
+
+ansifilter 1.1
+
+-fixed RTF background color output
+
+---
+01.04.2008
+
+ansifilter 1.0
+
+-added support for xterm 256 colour sequences
+-getopt_long function replaced by arg_Parser (patch by Antonio Diaz Diaz)
+
+---
+12.12.2007
+
+ansifilter 0.3
+
+-some more unknown sequences are ignored (\033[*h, \033[*;)
+
+---
+06.11.2007
+
+ansifilter 0.2
+
+-added option --tail (suggested by Emmanuel Oga)
+-256 color sequences are ignored
+
+---
+25.10.2007
+
+ansifilter 0.1
+
+-initial release
